@@ -1,0 +1,305 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A6E1FA;
+    margin: 0%;
+    font-size: 1.2em;
+    line-height: 160%;
+}
+
+button {
+background-color: #052438; 
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em; 
+  border-radius: 1em;
+  margin-bottom: 2%;
+}
+
+h1 {
+    line-height: 150%;
+}
+
+
+button a {
+    color: #79F6C0;
+}
+
+button a:hover {
+    color: #A6E1FA;
+    font-weight: bold;
+}
+
+
+h2 {
+    color: #79F6C0;
+}
+
+
+
+.topnav {
+    background-color: #EBA832;
+    color: #052438;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+
+.topnav a {
+    color: #020650;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.heading {
+    background-color: #052438;
+    display: flex;
+    padding: 10% 10% 10% 25%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro {
+    flex: 1;
+    margin-right: 15%;
+}
+
+.image {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+.about {
+    padding: 5% 45% 5% 10%;
+    background-color: #020650;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.about:before {
+    background: inherit;
+    top: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.about:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    z-index: -1;
+ 
+}
+
+
+
+
+.portfolio {
+    background-color: #052438;
+    padding: 10% 5% 10% 35%; 
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card-container {
+    flex-direction: row;
+    /* padding-bottom: 20%; */
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    background-color: #A6E1FA;
+    color:#020650;
+    border-radius: 1em;
+    width: 40%;
+    flex: 1;
+    padding: 1%;
+    margin-right: 10%;
+    width: 20%;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    max-width: 35%;
+    min-width: 20%;
+    align-content: flex-end;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0  #A6E1FA;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 3%;
+    align-content: flex-end;
+  }
+
+
+  .card-btn {
+    background-color: #052438;
+    color: #79F6C0;
+    padding: 4% 6%;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+.card-btn:hover{
+color: #EBA832;
+background-color: #020650;
+font-weight: bold;
+}
+
+
+
+
+.certs {
+    padding: 5% 25% 5% 10%;
+    background-color: #020650;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.certs:before {
+    background: inherit;
+    top: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.certs:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.list-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list-col {
+    flex: 1;  
+    margin-right: 3em;
+    flex-wrap: wrap;
+}
+
+#list-col li{
+    padding: 0;
+    line-height: 200%;
+}
+
+#cert-list {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+.contact {
+    background-color: #052438;
+    padding: 10% 10% 10% 35%;
+    padding-top: 10%;
+    flex-flow: column;
+    border-style: solid 10px;
+    border-color: chocolate;
+    flex-wrap: wrap;
+}
+
+
+.contact-btn {
+        background-color: #A6E1FA;
+        color: #020650;
+        padding: 2% 2%;
+        text-decoration: none;
+        border-radius: 1em;
+}
+
+.contact-btn:hover{
+    color: #A6E1FA;
+    background-color: #020650;
+}
+
+
