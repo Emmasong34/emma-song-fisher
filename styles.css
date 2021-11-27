@@ -199,7 +199,7 @@ h2 {
     max-width: 35%;
     display: flex;
     align-content: flex-end;
-    position: absolute;
+    position: relative;
 }
 
 .card-btn:hover{
