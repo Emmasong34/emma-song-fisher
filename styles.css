@@ -7,31 +7,9 @@ body {
     line-height: 160%;
 }
 
-button {
-background-color: #052438; 
-
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em; 
-  border-radius: 1em;
-  margin-bottom: 2%;
-}
 
 h1 {
     line-height: 150%;
-}
-
-
-button a {
-    color: #79F6C0;
-}
-
-button a:hover {
-    color: #A6E1FA;
-    font-weight: bold;
 }
 
 
@@ -41,6 +19,7 @@ h2 {
 
 
 
+/* navigation bar */
 .topnav {
     background-color: #EBA832;
     color: #052438;
@@ -64,9 +43,8 @@ h2 {
 }
 
 .topnav a:hover{
-    text-decoration: none;
-    font-weight: bold;
-    transform: scale(1.01);
+    text-decoration: underline;
+    transform: scale(1.09);
 }
 
 
@@ -74,8 +52,7 @@ h2 {
 
 
 
-
-
+/* intro div */
 .heading {
     background-color: #052438;
     display: flex;
@@ -100,7 +77,7 @@ h2 {
 
 
 
-
+/* about div */
 .about {
     padding: 5% 45% 5% 10%;
     background-color: #020650;
@@ -110,6 +87,7 @@ h2 {
     z-index: 1;
 }
 
+/* about div decoration */
 .about:before {
     background: inherit;
     top: 0;
@@ -142,6 +120,8 @@ h2 {
 
 
 
+
+/* portfolio div */
 .portfolio {
     background-color: #052438;
     padding: 10% 5% 10% 35%; 
@@ -151,43 +131,36 @@ h2 {
     flex-direction: column;
 }
 
+
+
 .card-container {
-    flex-direction: row;
-    /* padding-bottom: 20%; */
-    flex-wrap: wrap;
     display: flex;
-    flex-flow: wrap;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .card {
-    transition: 0.3s;
+    transition: all 0.3s;
     background-color: #A6E1FA;
     color:#020650;
     border-radius: 1em;
-    width: 40%;
     flex: 1;
     padding: 1%;
     margin-right: 10%;
-    width: 20%;
     margin-bottom: 10%;
     flex-wrap: wrap;
-    max-width: 35%;
-    min-width: 20%;
-    align-content: flex-end;
   }
   
   
   .card:hover {
-    /* box-shadow: 0 8px 16px 0  #A6E1FA; */
+    box-shadow: 0 2% 6% 0  #A6E1FA;
     transform: scale(1.01);
   }
   
 
   .container {
     padding: 3%;
-    align-content: flex-end;
   }
 
 
@@ -197,6 +170,8 @@ h2 {
     padding: 4% 6%;
     text-decoration: none;
     border-radius: 1em;
+    position: relative;
+    
 }
 
 .card-btn:hover{
@@ -208,6 +183,7 @@ font-weight: bold;
 
 
 
+/* certification div */
 .certs {
     padding: 5% 25% 5% 10%;
     background-color: #020650;
@@ -219,6 +195,7 @@ font-weight: bold;
     flex-wrap: wrap;
 }
 
+/* certification div decoration */
 .certs:before {
     background: inherit;
     top: 0;
@@ -279,7 +256,7 @@ font-weight: bold;
 
 
 
-
+/* contact div */
 .contact {
     background-color: #052438;
     padding: 10% 10% 10% 35%;
@@ -300,7 +277,7 @@ font-weight: bold;
 }
 
 .contact-btn:hover{
-    color: #A6E1FA;
+    color: #EBA832;
     background-color: #020650;
 }
 
