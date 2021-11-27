@@ -66,6 +66,7 @@ h2 {
 .topnav a:hover{
     text-decoration: none;
     font-weight: bold;
+    transform: scale(1.01);
 }
 
 
@@ -161,7 +162,6 @@ h2 {
 
 
 .card {
-    /* Add shadows to create the "card" effect */
     transition: 0.3s;
     background-color: #A6E1FA;
     color:#020650;
@@ -178,13 +178,13 @@ h2 {
     align-content: flex-end;
   }
   
-  /* On mouse-over, add a deeper shadow */
+  
   .card:hover {
     /* box-shadow: 0 8px 16px 0  #A6E1FA; */
     transform: scale(1.01);
   }
   
-  /* Add some padding inside the card container */
+
   .container {
     padding: 3%;
     align-content: flex-end;
