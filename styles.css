@@ -181,6 +181,7 @@ h2 {
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0  #A6E1FA;
+    transform: scale(1.01);
   }
   
   /* Add some padding inside the card container */
@@ -196,10 +197,9 @@ h2 {
     padding: 4% 6%;
     text-decoration: none;
     border-radius: 1em;
-    max-width: 35%;
-    display: flex;
-    align-content: flex-end;
-    position: relative;
+    position: absolute;
+    left: 0;
+    width:0%;
 }
 
 .card-btn:hover{
