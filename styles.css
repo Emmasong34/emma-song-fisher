@@ -197,9 +197,6 @@ h2 {
     padding: 4% 6%;
     text-decoration: none;
     border-radius: 1em;
-    position: absolute;
-    left: 0;
-    width:0%;
 }
 
 .card-btn:hover{
